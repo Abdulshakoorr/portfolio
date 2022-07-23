@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fav icon  -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- fav icon  -->
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/09f243a788.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Abdul-Shakoor</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="nav-container">
+        <nav>
+          <div class="logo">
+            <h3><span class="a-style">A</span>bdul</h3>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+      </div>
+      <div class="header-text">
+        <p>Hi, i am Abdul from Pak.</p>
+        <h1>
+          Fullstack Web <br /><span>Developer</span> <br />
+          UX / UI Designer.
+        </h1>
+        <br />
+        <a href="#contact" class="btn">Let's Talk</a>
+      </div>
+    </header>
+    <!-- sectional heading -->
+    <h1 class="sectional-heading">About Me</h1>
+    <!-- about section -->
+    <main class="about-section" id="about">
+      <div class="about-container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Untitled design 1.png" alt="profile-image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My self Abdul Shakoor. I am a fullstack Web-Developer and designer it has been 2 year
+              when i completed my collage eduction in computer science i found
+              my passion in web-design and development i felt joy by building an
+              amazing projects useing different and innovative technologies and
+              working with most of the frameworks which makes life so much
+              easier. i also provide freelancing services you can hire me as
+              your UX / UI designer and developer for your projects. Thank’s
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UX/UI</span> <br />
+                  Web and App Designer.
+                </li>
+                <li>
+                  <span>Development</span> <br />
+                  Web and App Development.
+                </li>
+                <li>
+                  <span>SEO</span> <br />
+                  Search Engine Optimization For Websites.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>UX/UI from 2020</span> <br />
+                  Web and App Designer. from Goggle instructor
+                </li>
+                <li>
+                  <span>Development from 2020</span> <br />
+                  Self-thought + coursera + udemy + Youtube <br />
+                  Web and App Development.
+                </li>
+                <li>
+                  <span>SEO from 2021</span> <br />
+                  Search Engine Optimization For Websites.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>School-2016</span> <br />Falcon English High School.
+                </li>
+                <li>
+                  <span>Collage-2018</span> <br />
+                  Computer Science From Formen collage nazimabad.
+                </li>
+                <li>
+                  <span>University-Till Now</span> <br />
+                  Computer Science from KU.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- about section end -->
+    <h1 class="sectional-heading">Services</h1>
+    <!-- services section start-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services I Provide.</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-bezier-curve"></i>
+            <h3>Web/App Design</h3>
+            <p>
+              UX and UI design makes any brand or Business from ground to the
+              sky. With modern design from an expert designer make any your work
+              much easier to show to your clients and audience to grow fast. We
+              make your dream come true.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Web/App Development</h3>
+            <p>
+              We help people to grow by building their website for their brands
+              and company Development with modern technologies is much awesome
+              responsive design media queries and grid system make it mobile
+              friendly.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>Web SEO</h3>
+            <p>
+              Seo is best for ranking in the search result if your website is
+              optimized with SEO package google will find it much easier for
+              their audience optimize your website On page that audience could reach to you much faster .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services section end-->
+    <!-- portfolio section start-->
+    <h1 class="sectional-heading">Portfolio</h1>
+    <div id="portfolio">
+      <div class="portfolio-container">
+        <h1 class="sub-title">My Work Portfolio.</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/images/des1.png" alt="web-design" />
+            <div class="layer">
+              <h3>Travel Website Design</h3>
+              <p>
+                This website design is the brand new design like web 3.0 now a
+                days.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/dev01.png" alt="web-design" />
+            <div class="layer">
+              <h3>E-commerce Website Dev</h3>
+              <p>This website is the brand new design for Ecommmerce.</p>
+              <a href="https://e-shop-com.netlify.app/" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/dev3.png" alt="web-design" />
+            <div class="layer">
+              <h3>React Disney Website clone</h3>
+              <p>This website design is the clone of disney website.</p>
+              <a href="https://portfolio-light-dark.netlify.app/" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://app.netlify.com/teams/as4630425/overview" target="_blank"  class="p-btn">See More...</a>
+    </div>
+    <!-- portfolio section end-->
+    <!-- contact section start-->
+    <h1 class="sectional-heading">Contact</h1>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2>Let's Connect</h2>
+            <label><i class="fa-solid fa-envelope"></i>E-mail:</label>
+            <p>abdulshakoorafridi349@gmail.com</p>
+            <p>as4630425@gmail.com</p>
+            <label><i class="fa-solid fa-phone"></i>What's app:</label>
+            <p>+92 471810373</p>
+            <div class="social-icon">
+              <a
+                href="https://www.facebook.com/profile.php?id=100012381725764"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com/Abdulshakooraf" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/abdul-shakoor-433014228/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <a href="/images/Abdul Shakoor.png" class="d-btn" download
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" placeholder="Enter Your Name" name="text" required />
+              <input type="email" placeholder="Enter Your E-mail" name="email" required />
+              <textarea
+                name="subject"
+                id="textarea"
+                rows="6"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <button
+                type="submit"
+                class="submit"
+                style="border: none; border-radius: 4px"
+              >
+                Submit <i class="fa-solid fa-share"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footer">
+      <p>Copyright &copy; 2022. ABDUL SHAKOOR AFRIDI</p>
+    </div>
+    <!-- script connection  -->
+    <script src="script.js"></script>
+  </body>
+</html>
